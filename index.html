@@ -1,12 +1,68 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Grupe"
+
         <title>Pagrindinis</title>
+        <style>
+
+            .clearfix{
+                overflow: auto;
+            }
+            #main-heading{
+                color:gray;
+            }
+            #u-paragraph{
+                color:hotpink;
+            }
+           .row{
+                background-color: lavender;
+                color: grey ;
+                width: 100%;
+            }
+
+.col{
+    float: left;
+width: 50%;
+
+}
+.pirma {
+    background-color: hotpink;
+}
+.antra {
+    background-color: khaki;
+}
+        </style>
     </head>
     <body>
-        <h1>Pavadinimas</h1>
-        <h2>Apie nieką</h2>
-        <h3>Naujienos</h3>
+        <h1 id="main-heading">Minimali struktura</h1>
+        <h2>Trecia paskaita</h2>
+        <!--<p id="u-paragraph">Unikalus paragrafas</p>-->
+        <!-- Eilute su stulpeliais -->
+            <div class="row clearfix">
+            <div class="col pirma">
+            <p>stulpelis</p><br>
+            <p>stulpelis</p><br>
+                <p>stulpelis</p><br>
+                <p>stulpelis</p><br>
+                <p>stulpelis</p><br>
+                <p>stulpelis</p>
+            </div>
+            <div class="col antra">
+                <p>stulpelis</p><br>
+                
+            </div>
+            <br>
+            <br>
+        <p>Sukureme div 2 zyme</p>
+        </div>
+        <div class="row">
+            <p>Sukureme div zyme</p>
+            </div>
+
+
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Nulla lacus orci, interdum id elit non, vulputate 
             dignissim est. Pellentesque tincidunt, neque sit amet 
@@ -68,7 +124,22 @@
             </li>
             </ul>
             
-
+<h1>Trecia paskaita</h1>
+<div id="isskirtinis-elementas">
+    <p>Susikureme</p>
+    </div>
+    <div class="row">
+    <div class="col">
+    <p>stulpelis</p>
+    </div>
+    <div class="col">
+        <p>stulpelis</p>
+    </div>
+<p>Sukureme div zyme</p>
+</div>
+<div class="row">
+    <p>Sukureme div zyme</p>
+    </div>
 
         
             
